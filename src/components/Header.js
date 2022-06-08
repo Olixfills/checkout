@@ -7,7 +7,7 @@ const Header = () => {
     <header>
       <Stack
         direction="row"
-        justifyContent={{ xs: "start", sm: "center", md: "end" }}
+        justifyContent={{ xs: "space-between", sm: "center", md: "end" }}
         alignItems="center"
         spacing={{ xs: 1, sm: 4, md: 8 }}
         px={{ xs: 2, sm: 4, md: 8 }}
