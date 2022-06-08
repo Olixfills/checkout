@@ -7,12 +7,12 @@ const Header = () => {
     <header>
       <Stack
         direction="row"
-        justifyContent="end"
+        justifyContent={{ xs: "start", sm: "center", md: "end" }}
         alignItems="center"
-        gap={8}
-        px={8}
+        spacing={{ xs: 1, sm: 4, md: 8 }}
+        px={{ xs: 2, sm: 4, md: 8 }}
         paddingTop={4}
-        paddingBottom={10}
+        paddingBottom={{ xs: 5, sm: 10 }}
       >
         {pages.map((page) => (
           <Typography
