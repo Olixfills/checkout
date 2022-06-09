@@ -18,6 +18,7 @@ const Header = () => {
           <Typography
             variant="subtitle1"
             textAlign="center"
+            key={page}
             sx={{ color: "#484848", fontWeight: "500" }}
           >
             {page}
